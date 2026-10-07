@@ -1,0 +1,14 @@
+# Local Terraform state & plugin directories
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# SSH private keys
+*.pem
+id_rsa
+id_rsa.pub
+
+# LocalStack / local overrides
+.localstack/
